@@ -1,0 +1,481 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+
+
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{setspace}
+\usepackage{tikz}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{dirtytalk}
+\usepackage{subfiles}
+\usepackage{blindtext}
+\usepackage{expex}
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage[utf8x]{inputenc}
+\include{preamble.tex}
+\include{bibliography}
+\usepackage{expex}
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{figure}{section}
+
+
+\setcounter{secnumdepth}{4}
+\begin{document}
+\setcounter{chapter}{0}
+
+\part{Theoretical background}
+\newpage
+
+\chapter{Focus and focus realization} \label{focusandfocusrealization} 
+
+The characterization of focus as an information-structural category makes it necessary to distinguish the semantico-pragmatic category of focus, on the one hand, from its grammatical manifestation in a given language, on the other.
+In other words, the notion of focus has to be separated from its formal, grammatical realization in the sentence, i.e. the syntactic domain in which it is expressed and the prosodic or the morphological means through which it is marked.
+
+
+The concept of focus in itself is independent of the way it is marked and is concerned rather with what focus does cross-linguistically and how it contributes to the universe of discourse. Focus realization, on the other hand \cite{Buring:focustypology}, refers to the linguistic realization of the information-structural category focus by way of special grammatical means, such as focus accenting, syntactic reordering and morphological markers, whose function is to help the hearer in identifying the focus-background structure of an utterance.
+
+Following Zimmermann \& Onea \cite{zimmermann2011focus}, I consider focus as a universal category of Information Structure. While the term Information Structure was introduced by Halliday \cite{halliday_1967}, the concept itself has its origins much earlier and it describes the way in which information is formally packaged within a sentence \cite{chafe1976givenness}. 
+
+
+The issue of the distribution of information in clauses and sentences has always been central to scholars interested in the correlation of form and function in language.
+Chafe \cite{chafe1976givenness} introduced the notion of information packaging, to refer to how information is presented, in contrast to the information itself. Information structure and information packaging are thus central notions to linguistic communication, that take into consideration the addressee’s current information state, and hence facilitate the flow of communication. Thus, communication can be seen as continuous change of the Common Ground, i.e., of the information that is mutually known to be shared in communication. 
+
+The original notion of Common Ground goes back to Stalnaker \cite{stalnaker1974pragmatic}, Karttunen \cite{karttunen1974presupposition} and Lewis \cite{lewis1979scorekeeping}, and consists of the information that is mutually known to be shared in communication by both speaker and hearer.
+The Common Ground is thus continuously updated, and information has to be packaged in correspondence with its current status. It consists not only of a set of propositions that is presumed to be mutually accepted but also of discourse referents, i.e. entities that have been already been introduced previously \cite{kamp1981theory}; \cite{heim1982semantics}. The tailoring and organization of propositions and referents is defined as common ground management, as it is concerned with the way in which the common ground content should develop.
+
+According to Lambrecht (1994), "the study of information structure focuses on the interaction of sentences and their contexts. It addresses the fundamental question of why there are so
+many kinds of sentence structure".
+
+
+Krifka \cite{krifka2008basic} distinguishes three main categories of Information Structure:\\
+\begin{enumerate}
+    \item Givenness, defined as a feature indicating whether the entity denoted is present in the discursive common ground mutually shared by the interlocutors
+    \item Topic vs. comment, where topic is the address of the common ground where the information conveyed in the comment has to be stored
+    \item Focus vs. background, where focus is defined in terms of alternatives and background as the complement notion of focus
+\end{enumerate}{}
+
+\noindent
+ Although the notions of givenness and topic are necessary to better understand focus and its manifestation, their in-depth investigation is out of the scope of this project. 
+ 
+ 
+ This chapter is organized as follows: in sections \ref{notion}, I provide a (non-exhaustive) synthesis of the different contributions to the notion of focus as an information-structural category; I will then clarify the difference between focus structure and several focus types (subsections \ref{structure} and \ref{type}). In section \ref{relization}, I present the different means that languages employ to mark focus. Finally, I will narrow down to subject focus (section \ref{asymmetry}) and provide a brief overview of its syntactic manifestation cross-linguistically. 
+
+
+\section{The notion of Focus} \label{notion}
+
+The notion of focus goes back to earlier times of linguistics. Given the complexity of the phenomenon, it is not surprising that the concept has been subject to a long and intricate debate over the years. 
+It is thus difficult to trace back the history of focus as a linguistic notion, because the concept was expressed in different terms and often the term was used to express different notions.
+
+The term focus was used prominently in the Prague School as a complementary notion to topic \cite{sgall1986meaning}. In Generative Grammar, it was used by Chomsky \cite{chomsky1970some} and Jackendoff \cite{jackendoff1972semantic}, who define focus as that part of information assumed by the speaker not to be shared by the hearer, while non-focused material is provides background information (the \say{presuppositional skeleton} or piece of information already shared by both speaker and hearer). 
+
+Thus, in a dialogical context, the classical pragmatic use of focus is to highlight the part of an answer that corresponds to the wh-part of a constituent question \cite{paul2010prinzipien}. Consequently, answers to wh-questions are commonly used as diagnostics for focus and its grammatical realization. Consider the example in (\ref{EX1}):
+
+
+\pex \label{EX1}
+\a Who ate the cake? 
+\a It was [Mary]\tiny{FOC}
+\xe
+
+\noindent
+In earlier investigations, Focus has often been been associated to concepts such as \say{information point} of the sentence \cite{bolinger1985two}, \say{emphasis}, \say{importance}, \say{highlighting} and \say{newness} \cite{halliday_1967}. These concepts, however, have been considered unsatisfactory and have failed to capture the complexity of the phenomenon in its entirety. The notion of newness, for instance, clearly gives wrong predictions. Consider the case in which a constituent that refers to something previously mentioned is in focus. A clear-cut example is the case of focused subjects. Subjects are usually entities that have been already previously introduced and, as such, discourse-given. However, a subject can at the same time represent the focus of the sentence.
+
+
+An important clarification in this respect is provided by Lambrecht 
+
+\noindent
+\cite{lambrecht1996information}, who considers focus (like topic) as a relational pragmatic category, that has to be distinguished from from a referential category. A relational category expresses a relation between the referent and the corresponding proposition. A referential category, on the other hand, reflects the identifiability and activation states of discourse referents. Pronouns, for instance, which are the most activated referents, can also represents new information to the hearer, because they are in a relation of newness with respect to the proposition they refer to. Thus, in example (1), Mary, being a proper name, has a uniqueness reference and is already known by both speaker and hearer. Yet, the information that it was her who ate the cake is new to the hearer. 
+
+Such relation between the referent and the proposition has been explained by two major semantic approaches to focus: the Alternative Semantics and the Structured Meaning approach. Both frameworks will be discussed in the next section.\\
+ 
+\subsection{The formal approaches} \label{formalapproaches}
+
+In the Alternative Semantics Frameworks \cite{rooth1985association} and \cite{rooth1992theory}, the notion of focus is closely linked to the notion of alternatives and it is defined as indicating the presence of alternatives to the focused expression. As said above, one of the most prominent uses of focus is to mark the answer to wh-questions. Alternative Semantics models this, by assuming that the meaning of a wh-question can be captured as a set of possible answers. In other words, given a question like ‘Who ate the cake?', a set of alternatives is created (‘It was Mark’, ‘It was John', ‘It was Mary’, etc.), which all constitute potential congruent answers to the interrogative phrase (the wh-element) in the question. 
+
+The Structured Meaning approach \cite{von1982structured}, \cite{von1990current};
+
+\noindent
+\cite{krifka1991compositional}, \cite{krifka2008basic}, etc., on the other hand, assumes that focus leads to a partition of the sentence meaning into two parts: focus and background. 
+Within this approach, Krifka \cite{krifka2008basic} presents a simple definition of focus going back to the central claims of Rooth \cite{rooth1985association} and \cite{rooth1992theory}: 
+
+
+\ex Focus indicates the presence of alternatives that are relevant for the interpretation of linguistic expressions
+\xe
+
+
+\noindent
+With this definition, Krifka restricts the set of possible alternatives, specifying that the alternative denotations have to be comparable to the denotation of the expression in focus, i.e. they have to be of the same type, often also of the same ontological sort (e .g . persons or times), and more narrowly restricted by the context of utterance. 
+
+Comparing both approaches, Zimmermann \& Onea \cite{zimmermann2011grammatical} observe that while the contribution of Alternative Semantics is to propose a definition of focus as indicating alternatives to the propositions expressed by an utterance, the Structured Meaning account restricts the set of possible alternatives for a proposition and propose a partition of the latter into focus-background. Both definitions have the advantage to be compatible with different focus types. 
+
+
+Importantly, in both approaches, the pragmatic use of focus does not have an effect on the truth condition of the utterance, but it helps in guiding the direction in which communication should develop, and it also aids in building the cognitive representations that are to be constructed by the interlocutors. Thus, failing to select the right focus typically results in incoherent communication, rather than in the transmission unintended factual information. 
+
+
+Although the pragmatic use of focus does not affect the truth-condition of the utterance, Rooth \cite{rooth1985association} showed that at least some occurrences of focus have quantificational impact. This is the case of the so-called focus particles such as ‘only' or ‘also' or ‘even' \cite{konig1991identical}. These operators take scope on the focus domain, so that different focus domains result in different quantificational, and, therefore, in different truth-conditions \cite{dufter2009focus}.
+In this respect, Krifka \cite{krifka2008basic} calls the former case \say{pragmatic focus}, while the latter is defined as \say{semantic focus}.
+
+
+Although providing a fundamental contribution to the characterization of the notion of focus, the formal approaches do not give clear diagnostics on how to identify it in a specific utterance. 
+Recently, Roberts \cite{roberts1996information}, Büring \cite{buring2003d}, Beaver and Clark \cite{beaver2008sense}, among others, have proposed a more operational definition that takes focus to be triggered by a question-under-discussion (QUD), being this question is explicit or not. According to the QUD approach, focus is defined as the element in the answer which instantiates the open variable in the QUD. This approach is discussed in details in the next section.\\
+
+
+\subsection{The operational approach}\label{operationalapproaches}
+
+The idea that the focus constituent is the part of the sentence that corresponds to the answer to a question, either overt or implied \cite{bresnan1989locative}, is not new. In the QUD approach, however,  focus  is seen as a discourse-structuring device, whose central function in declarative utterances is to specify the questions that can be answered by these utterances. Within this framework, an answer to a question is appropriate only if its focused constituent corresponds to the wh-phrase of the question. In other words, focus is defined as that part of the answer that satisfies the wh-variable contained in the question. The QUD method is particularly straightforward in the case of an explicit QUD in a dialogical situation, such as (\ref{EX3}):
+
+\pex \label{EX3}
+\a Who opened the door?
+\vspace{-0.3cm}
+\a {[}John{]}\tiny{FOC} \normalsize opened it
+\xe
+
+\noindent
+In the example in (\ref{EX3}), the subject constituent ‘John' satisfies the wh-variable ‘who' contained in the preceding QUD and can be thus identified as the focus of the utterance. Semantically, it can be said that there  is a definite presupposition associated with the sentence ‘someone opened the door’, and the assertion is that among all the possible alternative people that may have opened the door, John did it. The rest of the utterance consists of material already shared by speaker and hearer and can thus be identified as background. Crucial in this respect is the notion of exhaustivity. Given that ‘John' it is the one among several possibilities, the notion of focus is usually tied to an exhaustive interpretation. As I will discuss in chapter 3, the constant association between focus and exhaustivity is somewhat controversial, especially in the case of certain focus-marking strategies, like cleft sentences.
+
+It is often the case, however, that utterances are answers to implicit questions. In these cases the QUD has to be reconstructed starting from the answer itself and by looking at the preceding discourse context.
+To reconstruct an implicit QUD, Riester \cite{riester2018annotation} proposes an annotation guidelines for Question Under Discussion, stating that, for any assertion contained in a text (or transcript of spoken discourse) there is an implicit (or explicit) Question Under Discussion that determines which parts of the assertion are focused or backgrounded (and which ones are not-at-issue). 
+
+
+He also notices that some languages have specific morpho-syntactic means to determine the sentence partition into focused and background material. Specific word orders, morphological particles, prosodic prominence and particular syntactic constructions are commonly assumed to be indicators of the information-structural function of focus. Cleft sentences, for instance, especially it-clefts (corresponding to \textit{c’est} clefts in French) are considered a clear-cut example of a focus-marking strategy. However, relying exclusively on morpho-syntactic cues to identify the information-structural partition of each sentence could possibly run into a problem of circularity.
+
+
+To avoid such problem, Riester proposes a series of constraints that regulates the reconstruction of the QUD and allows its derivation from the preceding discourse context. The constraints are derived from the focus literature of the past decades, in particular, Rooth \cite{rooth1992theory}, Schwarzschild  \cite{schwarzschild1999givenness} and Büring \cite{Buring:focustypology}.
+
+
+For instance, implicit Questions Under Discussions must be answerable by an assertion that they immediately dominate (Q-A-Congruence), they must contain as much given material as possible (Maximize-Q-Anaphoricity constraint) and can only consist of given or at least highly salient information (Q-Givenness constraint). Consider the example in (\ref{EX4}) taken from Riester (\cite{riester2019constructing}):
+
+
+\pex \label{EX4}
+\a And all I can say is that his condition was extremely bad during his \vspace{-0,2cm}last year
+\vspace{-0,2cm}
+\a He literally suffocated
+\xe
+
+\noindent
+The assertion in (\ref{EX4})b gives rise to a set of alternative QUDs, such as:\\
+
+\noindent
+Q1: {What happened?}\\
+Q2: {What about him?}\\
+Q3: {Who literally suffocated?}\\
+Q4: {Who owns a bicycle?}\\ 
+
+\noindent
+According to the Q-A-Congruence, Q4 is ruled out because it cannot be answered by the assertion that it immediately dominates. Q1 is also excluded because of the Maximize-Q-Anaphoricity constraint, stating that the QUD must contain as much given or salient material as possible, and a question like Q1 does not contain any of the given material found in the assertion. Finally, the Q-Givenness constraint, according to which an implicit QUD cannot introduce new material (except from function words and wh-particles), excludes Q3, because the fact of being ‘literally suffocated’ is new information and fails to provide a link with previous context. Conversely, the personal pronoun ‘he’ is connected to the previous sentence by virtue of reference continuity (the possessor encoded in ‘his condition' in (\ref{EX4})a). Q2 is hence the optimal candidate as the implicit QUD of the assertion contained in (\ref{EX4})b.
+
+
+The author also notices that usually there is not a single way of formulating implicit QUDs, since language allows for synonymous formulations. In other words, the assertion contained in (\ref{EX4})b could as well be an answer to a question such as ‘how bad was his condition/situation?’.
+ What is essential however, is that it is possible to identify a QUD as “an object of meaning that does account for the discourse structure of a sequence of assertions, and for the information structure of the assertion that answers it” \cite{riester2019constructing}.
+
+Given the empirical nature of the dissertation, that builds on dialogical data, I consider the QUD approach to be the most appropriate for the goals and purposes of my project. First of all, it provides specific indications and constraints on how to retrieve the correct information-structural partition of the sentence and the consequent identification of focus. Secondly, it is compatible both with the Alternative Semantics and the Structured meaning approach. Third, it provides specific criteria on how to reconstruct the QUD when this is implicit, thus avoiding to rely exclusively on the syntactic form of the answer, which, as it will be shown, is often underspecified and can be compatible with more than one sentence-partition (e.g. \textit{il y a} or \textit{c'est} clefts in section \ref{structure}). Finally, this method allows to distinguish between focus types with a contrastive and non-contrastive interpretation. In the next sections, I will discuss the contributions to different focus structures and different focus types and provide some examples of how the QUD method can help to differentiate efficiently among different sub-categories.\\
+
+
+
+
+\subsection{Focus structure} \label{structure}
+
+
+As is generally acknowledged, different \say{sizes} of constituents can be focused within the sentence. One of the major contribution to the focus structure of the sentence is provided by Lambrecht \cite{lambrecht1996information}, who defines focus structure as the conventional association of a focus meaning (distribution of information) with a sentence form.
+
+A fundamental contrast is observed between broad and narrow focus.
+Such distinction is not categorical, but gradual in nature, with narrow focus referring to focus on single words or constituents and broad focus referring to complex constituents (VP) or to the case in which all parts are newly introduced into the discourse at the moment of utterance \cite{fery2008information}.
+Lambrecht \cite{lambrecht2000subjects} distinguishes among Argument Focus (AF), Predicate Focus (PF) and Sentence Focus (SF), which are described as follows:
+
+\begin{itemize}
+    
+    \item \textbf{Sentence focus structure} (SF), also called thetic sentence \cite{sasse1987thetic} or all-focus sentence, expresses a pragmatically structured proposition in which both the subject and the predicate are in focus. The focus domain is thus the whole sentence. This sentence type differs from predicate focus constructions, in that it exhibits no topical element and it is felicitous as answers to questions like ‘What happened?'. Two main types can be distinguished: ‘event-reporting sentences' and ‘presentational sentences'. Consider the example in (\ref{EX5}), taken directly from Lambrecht \cite{lambrecht1996information}:
+    
+\pex \label{EX5}
+\a What happened?
+\a \ [My car broke down]\tiny{FOC}
+\xe
+
+\item \textbf{Predicate focus structure} (PF), also called VP focus, is considered universally the unmarked type and coincides with the traditionally recognized topic-comment organization of information in a sentence. The Predicate focus structure is a sentence construction expressing a pragmatically structured proposition in which usually the subject, although it can also be another constituent, is the topic (hence within the presupposition) and in which the predicate expresses new information about this topic. The focus domain is, thus, the predicate phrase (or part of it). An example is provided in (\ref{EX6})
+    
+    \pex \label{EX6}
+    \a What did Laura do yesterday?
+    \a She [went to the park]\tiny{FOC}
+    \xe
+
+\item \textbf{Argument Focus structure} (AF) refers to the situation in which the focus domain is represented by a single constituent that has an argumental status (\ref{EX7}):
+
+\pex \label{EX7}
+\a Who stole the book?
+\vspace{-0.4cm}
+\a \ [Marc]\tiny{FOC} \normalsize stole it
+\xe
+
+\end{itemize}
+
+\noindent
+The three focus structures are used in different communicative situations and are felicitous as answers to different QUDs. In some cases, the preceding context is the only way to identify the correct focus partition of the sentence, as syntactic cues alone are not sufficient. Consider this example taken directly from the corpus under investigation (\textit{sgs}corpus, \cite{adli2011relation}):
+
+\pex \label{EX8}
+\a Qu'est-ce qu'il s'est passé? \\
+ ‘What happened?'
+\a Ben, en fait, il y a [Monsieur Rudrig]\tiny{FOC}, \normalsize{qui est au premier étage, [qui a été retrouvé mort]}\tiny{FOC}. \\
+\normalsize‘Well, actually, Mr. Rudrig, who lives on the second floor, has been found dead.'
+
+
+(sgs French, 79/7-8)
+\xe
+
+\noindent
+The \textit{il y a} cleft in (\ref{EX8})b can, in principle, be compatible with both a focus-background partition and with an all-focus interpretation. In other words, the same sentence can be an answer to two different questions: i) ‘what happened?' (as in (8)a) or ii) ‘who has been found dead?'. Thus, the only way to distinguish the two possible focus structures of the same sentence is to look at previous context, i.e. to retrieve the correct question under discussion (QUD). 
+
+
+Lambrecht \cite{lambrecht2010constraints} considers the Predicate focus (PF) as being the \say{unmarked} structure and the most frequently found across languages. 
+Conversely, the Argument focus (AF) category, where the focused constituent is the subject (\say{identificational} sentence in Lambrecht's terms), is described as the most \say{marked}, infrequent case. 
+In the dissertation, I will concentrate mainly on the Argument Focus structure, being this the category to which focused subjects belong. The other two categories and their mapping into grammar are out of the scope of the present work.
+
+In the Argument focus condition, the focused constituent can trigger different pragmatic inferences, that can be roughly grouped in two main semantic categories, namely information and contrast. These interpretations correspond to different sub-types of focus and are discussed in the next section.\\
+
+
+
+\subsection{Focus types} \label{type}
+
+A considerable amount of work, from both a generative and functional perspective,  has been dedicated to distinguish different types of foci, relying mainly on semantic and pragmatic differences. Due to the complexity of the phenomenon, there have often been  inconsistencies in the terminology used by different linguists, which has prevented at times a reliable comparison of claims on the interpretation of certain kinds of focus across languages. 
+
+
+There is a general tendency, advocated mainly by Kiss \cite{kiss1998identificational}, to distinguish between two prominent sub-types of focus, namely identificational focus and information focus (see also \cite{rochemont1986focus}; \cite{campos1990focalization}). The two sub-types are  differentiated by semantic reasons: identificational focus performs exhaustive identification on a set of entities given in the context (discourse-given) or in the situation (situationally-given), while information focus simply marks the non-presupposed nature of the information it carries. 
+
+According to Kiss \cite{kiss1998identificational}, identificational focus, being the most marked type, always triggers reordering of the constituents in the sentence, while for information focus, which acts as a default type, such operation is not required. The differences between the two focus types are exemplified in (\ref{EX9}) and (\ref{EX10}), respectively:\\
+ 
+ 
+\noindent
+\textbf{Identificational Focus}
+\pex \label{EX9}
+\a Who stole the book?
+\vspace{-0.3cm}
+\a It is [Marc]\tiny{FOC} \normalsize who stole it\\
+\xe 
+
+
+\noindent
+\textbf{Information Focus}
+\pex \label{EX10}
+\a What did you bring Mary?
+\vspace{0.1cm}
+\a I brought her [flowers]\tiny FOC.
+\xe
+
+\noindent 
+While in (\ref{EX9}) the only possible referent for which the proposition holds is Marc, in (\ref{EX10}) such implication is not conveyed. In other words, adding ‘and John too' to (9)b would result pragmatically infelicitous, while adding ‘and chocolates too' to the (10)b would be rather acceptable in context. This is attributable to the fact that identificational focus always carries an exhaustive interpretation, while information focus simply communicates the non-presupposed part of the information. 
+Kiss \cite{kiss1998identificational} provides arguments in favour of such differentiation based on examples from Hungarian, where this distinction is reflected in the grammar of the language. 
+
+
+While Kiss gives a fundamental semantic distinction between focus types, some claims are, in my opinion, too categorical. First of all, determining whether the set of alternatives is situationally- or contextually-given in the minds of speaker and hearer is a hard task, especially in corpus studies. Rather than givenness \textit{tout court}, some important differences in the mapping of focus into syntactic form, can be captured in terms of activation of discourse-referents. Some referents can be contextually-given and yet newly introduced in discourse and this distinction may have an impact in focus realization (e.g. \textit{il y a} clefts and newly-introduced referents \cite{lambrecht2000subjects}).
+
+Secondly, reordering of the constituents is not a reliable criterion to detect focus type. In some cases, an exhaustive focus can also be expressed by \textit{in situ} strategies \cite{gabriel2010focus}; \cite{fery2001focus}; \cite{uth2014spanish} and non-exhaustive focus can also involve reordering of the constituents (see Destruel \cite{destruel2012french} for a study on the correlation between cleft sentences and non-exhaustive interpretation). Rather, the context of the sentence, when possible, should be the only reliable way to determine exhaustiveness.
+
+
+A prominent sub-type of identificational focus is defined as contrastive focus. It is thought of as any instance of focus where one or more alternatives to the focused expression have been explicitly mentioned in the preceding discourse \cite{chafe1976givenness} and it always involve an exhaustive interpretation. The term has been commonly used to refer to cases where the choice of an element among a set of explicitly mentioned alternatives automatically excludes the other possibilities. Such exclusion can be carried out via two processes: either selecting one alternative among a set of explicit possibilities \cite{dik1981typology}, or correcting a previously mentioned value. 
+In some theories, when focus marks a constituent that is a direct rejection of an alternative, either spoken by the speaker himself (‘Not A, but B’) or by the hearer, the focus is said to be corrective (or \say{counterassertive}, cf. Gussenhoven \cite{gussenhoven2008types}). The two examples below exemplify the two semantic processes:\\
+
+
+
+\noindent
+\textbf{Contrastive Focus}
+\pex \label{EX11}
+\a Who stole the book, Marc or John?
+\vspace{-0.3cm}
+\a \ [Marc]\tiny{FOC} \normalsize stole it.
+\xe 
+
+\noindent
+\textbf{Corrective focus}
+\pex \label{EX12}
+\a John stole the book
+\vspace{-0,3cm}
+\a  \ [Marc]\tiny FOC \normalsize{stole it (and not John)}.
+\xe
+\vspace{-0.3cm}
+
+\noindent
+The occurrence of contrastive focus has been associated with systematic deviations from neutral sentence accent position and realization, designated syntactic positions and movement types as well as specific quantificational interpretations \\
+\noindent
+\cite{dufter2009focus}. If some scholars advocate a further distinction between contrastive and corrective, several linguists, on the other hand, consider that the distinction between identificational and information is unmotivated, and that the two categories should simply  be conflated under the definition of information focus (see, for instance, Vallduví's Focus theory \cite{vallduvi1992informational} and  Krifka \cite{krifka2008basic}.
+
+
+Krifka \cite{krifka2008basic} claims that all focus types (contrastive or identificational or information focus) are in some sense tied to the notion of alternatives, and that the differences between the various interpretations can be captured in terms of the ways in which the ordinary meaning of the focused constituent interacts with the set of alternatives. Therefore, in his theory, he proposes to simplify the differentiation among sub-types into  two major categories, namely \say{open} focus (open set of alternatives) vs. \say{closed} focus (restricted set of alternatives), and to reserve the term contrastive only to cases which truly involve correction or additive particles (e.g. too).
+
+
+The focus type distinction is another clear example of how the preceding QUD, whether implicit or explicit, is crucial in sorting out and identifying differences. Given that all focus types involve the notion of alternatives, Alternative Semantics alone is not sufficient in capturing their nuances. The QUD approach, on the other hand, provides a more operationalizable way to retrieve the correct pragmatic inference of each focus type and determine its degree of felicity in different communicative contexts.
+
+Kiss (1998:267) also uses the term ‘‘contrastive focus’’ to label a subclass of identificational focus, and regards an identificational focus [+contrastive] ‘‘if it operates on a closed set of entities whose members are known to the participants of discourse [and in that case] the identification of a subset of the given set also identifies the contrasting complementary subset’
+
+Identificational  focus:
+An identificational focus represents a subset of the set of contextually or situationally given elements for which the predicate phrase can potentially hold; it is identified as the exhaustive subset of this set for which the predicate phrase actually holds.
+(Kiss, 1998:245)
+
+ Corrective focus (Van Leusen 2004, Steube 2001, Repp 2010
+\subsubsection{The focus types investigated in the dissertation } \label{typesinvestigated}
+
+Given the amount of variation in the terminology used by different linguists, it is necessary to clarify and motivate the notions and the terminology that will turn out to be useful for the purpose of my dissertation. As it has been often mentioned, I will delimit the investigation exclusively to different types of focus on the subject, leaving aside the case where the subject is embedded in a larger focus domain (e.g. VP or all-sentence focus).
+I adopt mainly Kiss' differentiation between exhaustive and non-exhaustive interpretation of focus \cite{kiss1998identificational} and I use the term \textbf{identificational focus} to refer to the case in which the focused subject is selected among a set of alternatives of the same semantic type, thus filling the who-variable contained  in the (either implicit of explicit) QUD, and contains an exhaustive interpretation. Conversely, the term \textbf{information focus} is used for those instances of focused subjects that do not convey exhaustivity, but simply non-presupposed information.
+Moreover, I reserve the term \textbf{contrastive focus} to those cases where the focused subject is selected among a set of \textbf{explicitly} mentioned alternatives or when it replaces the variable already contained in the previous utterance.\\
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{ |p{4.5cm}|p{4.5cm}|p{4.5cm}|  }
+ \hline
+\textbf{Identificational focus} & \textbf{Information focus} & \textbf{Contrastive focus}\\
+ \hline
+ \small Performs exhaustive identification on a set of entities & \small Indicates the non-presuppositional nature of the information & \small Expresses exclusion of other explicitly given alternatives, either by selection or correction.\\ 
+ \hline
+\end{tabular}\\
+\end{center}
+\caption{Focus types investigated}
+\label{Table1}
+\end{table}
+
+
+\noindent
+Such three-way distinction is motivated by various reasons. First of all, in many languages, the three focus types often lead to different possibilities in the configurations of the sentence. In French, It is generally assumed that \textit{c'est} clefts, when used as focus-marking strategy, are associated with an (at least pragmatically-conveyed) exhaustive interpretation \cite{horn1981exhaustiveness}; \cite{kiss1998identificational}; \cite{drenhaus2011exhaustiveness}; \cite{destruel2012french};\\
+\noindent
+\cite{de2015status}. As mentioned in section \ref{structure}, \textit{il y a} clefts can also have a focus-background partition, and encode, therefore, narrow focus on the subject. However, it has been claimed that the two cleft types differ considerably in the type of focus interpretation they express: while a \textit{c'est} almost always conveys an exhaustive inference, \textit{il y a} clefts are generally associated with a non-exhaustive focus type, i.e. with information focus \cite{karssenberg2017oiseaux}.
+
+Secondly, it is commonly assumed that contrastive foci licence certain word orders that would be judged infelicitous if they were to express identificational or information focus. A classical example are fronted foci in Spanish or Italian, where the common locus for focus is the postverbal slot of the sentence. However, if a focused constituent appears preverbally, it almost always bears a contrastive (or corrective) interpretation and a specific prosodic contour \cite{brunetti2009italian}; \cite{bianchi2013focus}.
+
+It must be noticed that there is no consensus in the literature on the question of specific focus types and syntactic position or syntactic construction. In principle, a \textit{c'est} cleft can also carry a non-exhaustive interpretation and be combined with particles, such as ‘too' (e.g. \textit{C'est aussi Marie qui est venue à la fête} It is also Mary who came to the party); similarly, an \textit{il y a} cleft can also be associated with an exhaustive meaning (e.g. \textit{Il n'y a que Marie qui est venue à la fête} Only Mary came to the party). 
+
+
+Nevertheless, this three-way distinction is necessary to either confirm or reject the considerations on the mapping between focus type into syntactic form that have been pointed out so far for French and Spanish. Whether exhaustivity or contrastivity can be encoded only through specific word order alternations or not is an empirical question that will be dealt with in the dissertation. 
+
+
+On a more general level, many linguists interested in the phenomenon  have investigated whether the the semantic or pragmatic inferences observable across focus types and focus structures (see section \ref{structure}) are in fact reflected in the grammar of natural languages.
+By today, there seems to be a general tendency to answer to this question negatively. Although some patterns are visible, the strict one-to-one mapping between focus type and corresponding formal marking across languages remains a rather theoretical claim. Instead, many structures appear underspecified with respect to the type of focus they encode, and are often compatible with different focus interpretations. This is  true for both focus structure and focus type marking. The issue of the realization of focus will be discussed in the next section.\\
+
+
+\section{Focus realization}\label{relization}
+
+ The term focus realization, or focus marking, indicates the formal mechanism that signals a focus relation between a pragmatically construed referent and a proposition \cite{lambrecht1996information}.
+Given the distinction between focus and focus realization and given the above characterization of focus as a universal cognitive or semantic category at the level of information structure \cite{zimmermann2011focus}, it is not the semantico-pragmatic category of focus, but rather its grammatical realization which is subject to cross-linguistic variation. 
+
+As has previously been observed, languages show a wide range of the grammatical means employed for marking a focused constituent as such, ranging from phonological/prosodic devices (accenting, prosodic phrasing), over morphological devices (focus markers) to syntactic devices (constituent reordering).
+
+Focus marking, however, does not have to be mandatory in each language. In fact, in presence of enough contextual cues (for instance, an explicit QUD), the formal marking of focus might even seem superfluous at times.
+Additionally, Zimmermann \& Onea \cite{zimmermann2011grammatical} have shown that there is one-to-one mapping between focus and its grammatical realization. Rather, focus seems to to be formally underspecified (and thus in need of contextual resolution) in many, if not all languages. 
+
+Thus, the grammatical realization of focus is often ambiguous, in the sense that it is compatible with more than one focus-background structure. Nor the term focus marking, when used in this general way, implies that the formal devices employed in the marking of focus are exclusively found in focus constructions \cite{fiedler2006subject}.
+
+
+Nevertheless, it is possible to identify some patterns across languages. The range of possibilities for marking focus is rather wide and it would be difficult to mention all the possible strategies. Lambrecht \cite{lambrecht1996information} identifies the following classification: 
+
+\begin{itemize}
+    \item Exclusively prosodic, e.g. English, German
+    \vspace{-0.3cm}
+    \item Morphological, e.g. Wolof, West Chadic
+     \vspace{-0.3cm}
+    \item Prosodic and morphological, e.g. Japanese
+     \vspace{-0.3cm}
+    \item Prosodic and syntactic, e.g. Italian, Spanish
+     \vspace{-0.3cm}
+    \item Constructional, e.g. French
+\end{itemize}
+
+\noindent
+ The Generative approach, building on the observation that focus is marked in several languages by a variety of grammatical means, assumes focus to be a part of syntactic structure, at least in the form of an abstract feature, located in a dedicated position in the C-domain (the left periphery of the sentence), namely the Focus Phrase or FocP \cite{rizzi1997fine}: 
+ 
+
+\ex
+\ [ForceP [TopP* \textbf{[FocP XP[+foc]} [TopP* [FinP [IP ...tXP]]]]]]\
+\xe
+ 
+ \noindent
+ In this account, the different focus-marking mechanisms have been regrouped in two main syntactic strategies, namely the \textit{in situ} and the \textit{ex situ} strategy 
+ 
+ \noindent
+ \cite{aboh2008focus}.
+The \textit{in situ} option is generally considered as the most economical strategy since the focused constituent is realized in the position defined by the argument structure of the verb, while languages that show the \textit{ex situ} option realize the focused constituent in the left periphery of the sentence (or C-domain in \cite{rizzi1997fine}), immediately followed by the verb. Frascarelli \cite{frascarelli2010narrow} adds to the framework an additional strategy that corresponds to the constructional type in \cite{lambrecht1996information}, namely a cleft sentence. 
+
+
+Büring, in his Prominence Theory of Focus realization \cite{buring2009towards}; 
+
+\noindent
+\cite{truckenbrodt1995phonological}) claims all focus-marking strategies, whether syntactic or not, can be analyzed under the umbrella of structural prominence, and that all languages are subject to one single constraint in focus realization, namely (\ref{EX12}):
+
+\ex \textbf{FocusProminence}\\ \label{EX12}
+\noindent
+Focus needs to be maximally prominent.
+\xe
+
+\noindent
+ In Büring's account, the notion of \say{prominence} is intended as a prosodic one (as originally intended by Truckenbrodt). FocusProminence thus is considered the only way focus interacts with the formation of structure. Even in morphological focus-marking systems, morphemes can serve to mark heads and/or boundaries. In other words, the so‐called focus morphemes would not literally mark the focus, but rather the structural position in which focus is realized.
+However, adjustment strategies need not be prosodic: \say{if the prosodic system of a language does not allow A in the string A-B to be prominent, two more options arise: no adjustment whatsoever (i.e. violation of FocusProminence); or syntactic adjustment to B-A to get A into a prosodically prominent position. The latter case will result in a language that marks focus by constituent order variation} \cite{buring2009towards}, as it is the case in Spanish (\cite{zubizarreta1998prosody}, cf. chapter 3). Given that FocusProminence makes reference to prosodic structure, this implies that, according to this view, marked constituent order is established only after prosodic structure is built.
+
+
+Also Lambrecht \cite{lambrecht1996information} agrees with the fact that the common denominator among different focusing strategies is prosodic prominence of a given syllable in the sentence. It is also the only device which can occur by itself, without being complemented by another coding system (as e.g. in English). It would seem therefore that the role of prosody in focus marking is in some sense functionally more important than morpho-syntactic marking. This isno doubt a consequence of the iconic relationship between pitch prominence and the degree of communicative importance assigned to the focal portion of a proposition.
+
+In French for instance, differences in the prosodic phrasing of the language account at least in part for the use of particular focus-marking systems. For example, it seems likely that the prevalent use of cleft constructions for the marking of focus differences is at least in part due to the fact that this language has both a relatively rigid constituent order and a relatively rigid rhythmic structure.
+
+Phenomena of non-canonical word order are particularly visible across languages in the case of contrast or correction. As argued in Zimmermann 
+
+\noindent
+\cite{zimmermann2008contrastive}, the notion of contrast refers to the fact that a particular focus content, or a particular speech act containing a focus, or a particular focus-background partition, is unexpected for the hearer from the speaker’s perspective, and may thus create problems for the successful update of the common ground: since unexpected facts are more difficult to accommodate, the speaker will often try to facilitate the hearer’s task of adjusting her background assumptions accordingly for successful communication. One possibility for the speaker to direct the hearer’s attention, and to facilitate the task of shifting the background assumptions, is to use a non-canonical, i.e., a structurally more complex sentence that comes with additional grammatical marking in form of, for instance, a particular intonation contour, syntactic movement, a cleft structure, or the insertion of morphological markers. 
+As Krifka and Musan \cite{krifka2012expression} point out, there is a relatively strong need to express contrast cross-linguistically, and to express it with more explicit means such as syntactic movement. This can be explained by the plausible principle that if something is unexpected, it should be marked explicitly. 
+
+If contrast and correction seems to be consistently marked, information focus-marking, on the other hand, appears often undetermined. This observation yields particularly in the case of object focus. As already mentioned in section 1.1, object focus is consistently expressed across languages through \say{unmarked} strategies. In languages that mark focus by means of a combination of prosodic and syntactic strategies, such as French and Spanish, realizing focus on the object generally results in the canonical SVO order. In the absence of explicit focus marking, the focus-background structure is massively underspecified by the grammatical system, and hence in need of contextual resolution. 
+
+Conversely, as has been often stressed, a focus on the subjects seems to require special marking across languages. As it happens in the case of contrast or correction, it is often assumed that subject focus is explicitly marked because it conveys, once again, an \say{unexpected} interpretation of the subject as new information, that is more difficult to accommodate \cite{lambrecht2000subjects}.
+This subject/object asymmetry in focus realization will be discussed in details in the next section.
+
+
+
+\subsection{The Argument asymmetry in focus realization} \label{asymmetry}
+
+Previous work on Information Structure has identified a well-known asymmetry with respect to the realization of focused constituents across numerous languages. 
+It has already been observed for some languages that focus on subjects obligatorily induces a non-canonical structure while focus on non-subjects only optionally does so \cite{skopeteas2010focus}. This is presumably attributable to the frequent correlation between certain information-structural functions and certain syntactic constituents, where subjects are generally considered topics \say{by default}, while objects usually convey new information to the hearer. 
+
+Our utterances tend to be construed around and about subjects, which exhibit a range of semantic and discourse-related properties (e.g. givenness, agentivity, activation, etc.) which overlap with the ones displayed by topics. A subject in focus is, therefore, a marked option of the language and, consequently, less frequent. Given the general tendency in language to express marked interpretations through marked forms, it is not surprising that subject focus is consistently encoded by non-canonical strategies, while object focus generally lacks formal marking.
+ 
+
+Evidence for this subject/non-subject asymmetry in focus realization has been provided for several languages including Hausa \cite{hartmann2007place}, West Chadic languages \cite{zimmermann2011focus}, several Kwa and Gur languages \cite{fiedler2005out}, Northern Sotho \cite{zerbian2007investigating}, etc.
+
+The guiding hypothesis is that the special status of focused subjects is conditioned by information-structural factors, i.e. subjects in their canonical sentence-initial position are prototypically interpreted as topics \cite{thompson1976subject}. Consequently, if the contextual cues establish a subject as focus, this conflicts with its primary information-structural function as non-focal topic. In order to resolve this conflict, the focused subject will have to be realized in a non-canonical structure, for instance, by means of special morphological markers and/or syntactic reorganization \cite{fiedler2006subject}.
+
+
+According to Lambrecht \cite{lambrecht2010constraints}, speakers have an unconscious inclination to interpret isolated sentences in order to be able to conceive of them as pieces of information as topic-comment sentences. Consequently, he considers that such articulation of the sentence represents, communicatively speaking, the most common type. In other words, it is more common for speakers to convey information about given discourse entities than to identify arguments in open propositions. Therefore, the different non-canonical strategies that encode subject focus (see section \ref{relization}) would serve a purpose of \say{detopicalization} of the subject, i.e. they would enhance comprehension of the subject constituent as new information to the hearer, rather than as the entity the sentence is about \cite{reinhart1981pragmatics}.
+
+Following these consideration, it can be assumed that a subject in focus conveys an interpretation that is more costly to accommodate for the hearer because of its  unexpectedness. This would also explain why object focus rarely shows a a specific formal marking. Given the default interpretation of objects as foci, additional encoding is not required, and speakers opt for more economic ways, such as canonical structures. 
+
+As it has been often stressed out, such asymmetry is also observable in the majority of Romance languages. Elicitation tasks of Canadian French have shown that speakers overwhelmingly chose to use a cleft sentence to answer a question on the subject, while they opted for the SVO canonical structure whenever the focus was on the object. In the experiment, constructions with clefted objects did not occur at all \cite{skopeteas2010focus}. 
+
+Thus, to focus non-subject arguments like object, which are generally found sentence-finally, the \textit{in situ} strategy is preferred because it is more economic than using a cleft. Economy is said to determine the speaker’s choice among existing structural alternatives for the expression of the same propositional content, reflecting the ‘least effort’ principle which has been shown to account for several properties of language processing \cite{skopeteas2010focus}.
+In particular, \textit{in situ} focus does not involve any syntactic operation, hence it qualifies as the least complex structure. Since a cleft construction contains additional structural material, it is plausible to assume that clefting involves a higher degree of structural complexity and is therefore used only when strictly needed (e.g. in case of a contrastive or corrective interpretation of the focused object).
+
+Another explanation is in terms of prosody (Destruel)
+
+This generalization however doesn't account for the fact that, even for subject focus, we may also find more economic strategies in French or Spanish. If a cleft is an ideal strategy to focus the subject in French, then why do we find also \textit{in situ} focusing for subjects? Conversely, if a postverbal subject is the means to encode subject focus in Spanish, why do we also find clefts? 
+
+These question are addressed in the next chapter, where I compare different contributions to different focusing strategies for subjects in both languages from a language-internal and a comparative perspective.
+
+\subfile{Chapter2}
+\subfile{Chapter3}
+\subfile{Chapter4}
+
+
+
+
+\bibliographystyle{acm}
+\bibliography{Bibliography.bib}
+
+
+\end{document}
